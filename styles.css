@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, lightgray, lightblue );
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    background-color: aliceblue;
+    padding: 20px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    font-weight: 700;
+}
+
+.input{
+    padding: 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-align: center;
+    border: none;
+    outline: none;
+    border: 1px solid black;
+    width: 100px;
+}
+
+.gallery img{
+    padding-top: 30px;
+    width: 400px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 5px;
+}
+.errorMessage{
+ color: red;
+ font-size: 20px;
+ margin: 10px;
+ display: none;
+}
+.btn{
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 15px 50px;
+    outline: none;
+    border: none;
+    color: black;
+    background-color: green;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: white;
+    background-color: crimson;
+    cursor: pointer;
+}
+.gallery{
+    display: none;
+}
